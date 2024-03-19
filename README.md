@@ -6,8 +6,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/femquizapp-IrV1zFH2lP](https://www.frontendmentor.io/solutions/femquizapp-IrV1zFH2lP)
+- Live Site URL: [https://github.com/toolboxal/fem-quiz-app.git](https://github.com/toolboxal/fem-quiz-app.git)
 
 ## My process
 
