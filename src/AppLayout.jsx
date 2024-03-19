@@ -9,8 +9,9 @@ const AppLayout = () => {
   const gameStart = useStore((state) => state.gameStart)
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('../data.json')
+      const response = await fetch('/data.json')
       const data = await response.json()
+      console.log(data)
       setQns(data)
     }
     fetchData()
