@@ -32,7 +32,7 @@ const CompletionScreen = () => {
           />
           <div className="flex items-center gap-4">
             <div className="bg-optionTile rounded-md object-contain md:h-14 md:w-14 flex items-center justify-center">
-              <img src={category.icon} alt="" className="" />
+              <img src={category.icon} alt="category icon" />
             </div>
             <p className="text-textColorPrimary font-medium text-lg md:text-[28px]">
               {category.title}

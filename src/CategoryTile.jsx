@@ -7,8 +7,8 @@ const CategoryTile = ({ data }) => {
 
   const setGameStart = useStore((state) => state.setGameStart)
   return (
-    <button
-      className="w-full p-3 bg-optionBackground rounded-xl flex items-center gap-3 shadow-sm active:shadow-md active:translate-y-[1px] active:translate-x-[1px]"
+    <div
+      className="w-full p-3 bg-optionBackground rounded-xl flex items-center gap-3 shadow-sm active:shadow-md active:translate-y-[1px] active:translate-x-[1px] cursor-pointer"
       onClick={() => {
         setCategory(data)
 
@@ -16,10 +16,10 @@ const CategoryTile = ({ data }) => {
       }}
     >
       <div className="bg-optionTile rounded-md object-contain">
-        <img src={data.icon} alt="" className="" />
+        <img src={data.icon} alt="category icon" />
       </div>
       <p className="text-textColorPrimary font-medium text-lg">{data.title}</p>
-    </button>
+    </div>
   )
 }
 export default CategoryTile

@@ -32,6 +32,7 @@ const NavBar = () => {
                 ? '/assets/images/icon-sun-dark.svg'
                 : '/assets/images/icon-sun-light.svg'
             }
+            alt="theme switcher lightmode"
           />
           <Switch
             defaultChecked
@@ -44,6 +45,7 @@ const NavBar = () => {
                 ? '/assets/images/icon-moon-dark.svg'
                 : '/assets/images/icon-moon-light.svg'
             }
+            alt="theme switcher lightmode"
           />
         </Flex>
       </Text>
