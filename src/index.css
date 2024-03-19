@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 244 246 250;
+    --textColorPrimary: 49 62 81;
+    --textColorSecondary: 98 108 127;
+    --optionBackground: 255 255 255;
+    --optionTile: 244 246 250;
+    --purplePrimary: 167 41 245;
+    --purpleSecondary: 246 231 255;
+    --green: 38 215 130;
+    --red: 238 84 84;
+  }
+  :root[class='dark'] {
+    --background: 49 62 81;
+    --textColorPrimary: 255 255 255;
+    --textColorSecondary: 171 193 225;
+    --optionBackground: 59 77 102;
+    --optionTile: 244 246 250;
+    --purplePrimary: 167 41 245;
+    --purpleSecondary: 246 231 255;
+    --green: 38 215 130;
+    --red: 238 84 84;
+  }
+}
+
+/* @layer base {
+  h1 {
+    @apply text-[64px] font-light;
+  }
+  h2 {
+    @apply text-4xl font-medium;
+  }
+  h3 {
+    @apply text-[28px] font-medium;
+  }
+  p {
+    @apply text-2xl leading-6;
+  }
+} */
+
+/* * {
+  @apply transition-all duration-200;
+} */
