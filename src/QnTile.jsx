@@ -22,7 +22,7 @@ const QnTile = ({ option, index, correctAnswer }) => {
       disabled={answer === 'submitted'}
       className={twMerge(
         clsx(
-          'w-full p-3 bg-optionBackground rounded-xl flex items-center gap-3 shadow-sm active:shadow-md group',
+          'w-full p-3 bg-optionBackground rounded-xl flex items-center gap-3 shadow-sm active:shadow-md group appearance-none',
           answer === 'unsubmitted' && 'focus:ring-2 focus:ring-purplePrimary',
           answer === 'submitted' &&
             option === correctAnswer &&
@@ -40,7 +40,7 @@ const QnTile = ({ option, index, correctAnswer }) => {
       <div
         className={twMerge(
           clsx(
-            'bg-optionTile rounded-md w-10 h-10 shrink-0 flex justify-center items-center',
+            'bg-optionTile rounded-md w-10 h-10 shrink-0 flex justify-center items-center appearance-none',
             answer === 'unsubmitted' && 'group-focus:bg-purplePrimary',
             answer === 'submitted' && option === correctAnswer && 'bg-green',
             answer === 'submitted' &&
@@ -53,7 +53,7 @@ const QnTile = ({ option, index, correctAnswer }) => {
         <p
           className={twMerge(
             clsx(
-              'font-medium text-textColorSecondary group-focus:text-white',
+              'font-medium text-textColorSecondary group-focus:text-white appearance-none',
               answer === 'submitted' &&
                 option === correctAnswer &&
                 'text-white',
